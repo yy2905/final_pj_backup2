@@ -599,7 +599,7 @@ map.on('style.load', function() {
       var featureInfo = `
         <h4>${hoveredFeature.properties.NAME}</h4>
         <p><strong>Total Confirmed Cases:</strong> ${hoveredFeature.properties.TCC}</p>
-        <p><strong>Cured Cases:</strong> ${hoveredFeature.properties.CC}</p>
+        <p><strong>Dead Cases:</strong> ${hoveredFeature.properties.CC}</p>
       `
       $('#feature-info').html(featureInfo)
 
