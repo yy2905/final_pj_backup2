@@ -9,287 +9,287 @@ var initialZoom = 2.5
 // a helper function for Lookup for looking up all the provinces and their status quo
 var nameLookup = (code) => {
   switch (code) {
-     //>10,000
+    //>10,000
     case 1:
       return {
         color: '#8B3626',
-        description: 'New York',
+          description: 'New York',
       };
-     //1,000-9,999
+      //1,000-9,999
     case 2:
       return {
         color: '#CD4F39',
-        description: 'Washington',
+          description: 'Washington',
       };
-      case 3:
-        return {
-          color: '#CD4F39',
-          description:'California',
-        };
-      case 4:
-        return {
-          color: '#CD4F39',
-          description:'New Jersey',
-        };
+    case 3:
+      return {
+        color: '#CD4F39',
+          description: 'California',
+      };
+    case 4:
+      return {
+        color: '#CD4F39',
+          description: 'New Jersey',
+      };
 
       //500-999
-      case 5:
-        return {
-          color: '#EE5C42',
-          description:'Michigan',
-        };
-      case 6:
-        return {
-          color: '#EE5C42',
+    case 5:
+      return {
+        color: '#EE5C42',
+          description: 'Michigan',
+      };
+    case 6:
+      return {
+        color: '#EE5C42',
           description: 'Florida',
-        };
-      case 7:
-        return {
-          color: '#EE5C42',
-          description:'Louisiana',
-        };
-      case 8:
-        return {
-          color: '#EE5C42',
-          description:'Illinois',
-        };
-      case 9:
-        return {
-          color: '#EE5C42',
-          description:'Georgia',
-        };
-      case 10:
-        return {
-          color: '#EE5C42',
-          description:'Texas',
-        };
-      case 11:
-        return {
-          color: '#EE5C42',
-          description:'Massachusetts',
-        };
+      };
+    case 7:
+      return {
+        color: '#EE5C42',
+          description: 'Louisiana',
+      };
+    case 8:
+      return {
+        color: '#EE5C42',
+          description: 'Illinois',
+      };
+    case 9:
+      return {
+        color: '#EE5C42',
+          description: 'Georgia',
+      };
+    case 10:
+      return {
+        color: '#EE5C42',
+          description: 'Texas',
+      };
+    case 11:
+      return {
+        color: '#EE5C42',
+          description: 'Massachusetts',
+      };
 
-        //100-499
-      case 12:
-        return {
-          color: '#FF6347',
+      //100-499
+    case 12:
+      return {
+        color: '#FF6347',
           description: 'Colorado',
-        };
-      case 13:
-        return {
-          color: '#FF6347',
+      };
+    case 13:
+      return {
+        color: '#FF6347',
           description: 'Pennsylvania',
-         };
-      case 14:
-        return {
-          color: '#FF6347',
-          description:'Tennessee',
-         };
-      case 15:
-        return {
-          color: '#FF6347',
-          description:'Wisconsin',
-         };
-      case 16:
-        return {
-          color: '#FF6347',
-          description:'North Carolina',
-        };
-      case 17:
-        return {
-          color: '#FF6347',
-          description:'Ohio',
-        };
-      case 18:
-        return {
-          color: '#FF6347',
-          description:'Connecticut',
-        };
-      case 19:
-        return {
-          color: '#FF6347',
-          description:'Maryland',
-        };
+      };
+    case 14:
+      return {
+        color: '#FF6347',
+          description: 'Tennessee',
+      };
+    case 15:
+      return {
+        color: '#FF6347',
+          description: 'Wisconsin',
+      };
+    case 16:
+      return {
+        color: '#FF6347',
+          description: 'North Carolina',
+      };
+    case 17:
+      return {
+        color: '#FF6347',
+          description: 'Ohio',
+      };
+    case 18:
+      return {
+        color: '#FF6347',
+          description: 'Connecticut',
+      };
+    case 19:
+      return {
+        color: '#FF6347',
+          description: 'Maryland',
+      };
 
-      case 20:
-        return {
-          color: '#FF6347',
-          description:'South Carolina',
-        };
-      case 21:
-        return {
-          color: '#FF6347',
-          description:'Virginia',
-        };
-      case 22:
-        return {
-          color: '#FF6347',
-          description:'Nevada',
-        };
-      case 23:
-        return {
-          color: '#FF6347',
-          description:'Mississippi',
-        };
-     case 24:
-        return {
-          color: '#FF6347',
-          description:'Oregon',
-        };
-      case 25:
-        return {
-          color: '#FF6347',
+    case 20:
+      return {
+        color: '#FF6347',
+          description: 'South Carolina',
+      };
+    case 21:
+      return {
+        color: '#FF6347',
+          description: 'Virginia',
+      };
+    case 22:
+      return {
+        color: '#FF6347',
+          description: 'Nevada',
+      };
+    case 23:
+      return {
+        color: '#FF6347',
+          description: 'Mississippi',
+      };
+    case 24:
+      return {
+        color: '#FF6347',
+          description: 'Oregon',
+      };
+    case 25:
+      return {
+        color: '#FF6347',
           description: 'Minnesota',
-        };
-      case 26:
-        return {
-          color: '#FF6347',
-          description:'Utah',
-        };
-      case 27:
-        return {
-          color: '#FF6347',
-          description:'Alabama',
-        };
-      case 28:
-        return {
-          color: '#FF6347',
-          description:'Indiana',
-        };
-      case 29:
-        return {
-          color: '#FF6347',
-          description:'Arkansas',
-        };
-        case 30:
-          return {
-            color: '#FF6347',
-            description:'Arizona',
-          };
-    //10-99
-      case 31:
-        return {
-          color: '#fed0c8',
-          description:'Washington, D.C.',
-        };
-      case 32:
-        return {
-          color: '#fed0c8',
-          description:'Kentucky',
-        };
-      case 33:
-        return {
-          color: '#fed0c8',
+      };
+    case 26:
+      return {
+        color: '#FF6347',
+          description: 'Utah',
+      };
+    case 27:
+      return {
+        color: '#FF6347',
+          description: 'Alabama',
+      };
+    case 28:
+      return {
+        color: '#FF6347',
+          description: 'Indiana',
+      };
+    case 29:
+      return {
+        color: '#FF6347',
+          description: 'Arkansas',
+      };
+    case 30:
+      return {
+        color: '#FF6347',
+          description: 'Arizona',
+      };
+      //10-99
+    case 31:
+      return {
+        color: '#fed0c8',
+          description: 'Washington, D.C.',
+      };
+    case 32:
+      return {
+        color: '#fed0c8',
+          description: 'Kentucky',
+      };
+    case 33:
+      return {
+        color: '#fed0c8',
           description: 'Missouri',
-        };
-      case 34:
-        return {
-          color: '#fed0c8',
+      };
+    case 34:
+      return {
+        color: '#fed0c8',
           description: 'Iowa',
-        };
-      case 35:
-        return {
-          color: '#fed0c8',
-          description:'Maine',
-        };
-      case 36:
-        return {
-          color: '#fed0c8',
+      };
+    case 35:
+      return {
+        color: '#fed0c8',
+          description: 'Maine',
+      };
+    case 36:
+      return {
+        color: '#fed0c8',
           description: 'Rhode Island',
-        };
-      case 37:
-        return {
-          color: '#fed0c8',
-          description:'New Hampshire',
-        };
-      case 38:
-        return {
-          color: '#fed0c8',
-          description:'Kansas',
-        };
-      case 39:
-        return {
-          color: '#fed0c8',
-          description:'New Mexico',
-        };
-      case 40:
-        return {
-          color: '#fed0c8',
-          description:'Oklahoma',
-        };
-        case 41:
-          return {
-            color: '#fed0c8',
-            description:'Vermont',
-          };
-          case 42:
-            return {
-              color: '#fed0c8',
-              description:'Hawaii',
-            };
-        case 43:
-          return {
-            color: '#fed0c8',
-            description:'Delaware',
-          };
-          case 44:
-            return {
-              color: '#fed0c8',
-              description:'Idaho',
-            };
-        case 45:
-          return {
-            color: '#fed0c8',
-            description:'Nebraska',
-          };
-          case 46:
-            return {
-              color: '#fed0c8',
-              description:'Montana',
-            };
-            case 47:
-              return {
-                color: '#fed0c8',
-                description:'North Dakota',
-              };
-              case 48:
-                return {
-                  color: '#fed0c8',
-                  description:'Wyoming',
-                };
-                case 49:
-                  return {
-                    color: '#fed0c8',
-                    description:'Puerto Rico',
-                  };
-                  case 50:
-                    return {
-                      color: '#fed0c8',
-                      description:'Guam',
-                    };
-                    case 51:
-                      return {
-                        color: '#fed0c8',
-                        description:'South Dakota',
-                      };
-                      case 52:
-                        return {
-                          color: '#fed0c8',
-                          description:'Alaska',
-                        };
-                        case 53:
-                          return {
-                            color: '#fed0c8',
-                            description:'West Virginia',
-                          };
+      };
+    case 37:
+      return {
+        color: '#fed0c8',
+          description: 'New Hampshire',
+      };
+    case 38:
+      return {
+        color: '#fed0c8',
+          description: 'Kansas',
+      };
+    case 39:
+      return {
+        color: '#fed0c8',
+          description: 'New Mexico',
+      };
+    case 40:
+      return {
+        color: '#fed0c8',
+          description: 'Oklahoma',
+      };
+    case 41:
+      return {
+        color: '#fed0c8',
+          description: 'Vermont',
+      };
+    case 42:
+      return {
+        color: '#fed0c8',
+          description: 'Hawaii',
+      };
+    case 43:
+      return {
+        color: '#fed0c8',
+          description: 'Delaware',
+      };
+    case 44:
+      return {
+        color: '#fed0c8',
+          description: 'Idaho',
+      };
+    case 45:
+      return {
+        color: '#fed0c8',
+          description: 'Nebraska',
+      };
+    case 46:
+      return {
+        color: '#fed0c8',
+          description: 'Montana',
+      };
+    case 47:
+      return {
+        color: '#fed0c8',
+          description: 'North Dakota',
+      };
+    case 48:
+      return {
+        color: '#fed0c8',
+          description: 'Wyoming',
+      };
+    case 49:
+      return {
+        color: '#fed0c8',
+          description: 'Puerto Rico',
+      };
+    case 50:
+      return {
+        color: '#fed0c8',
+          description: 'Guam',
+      };
+    case 51:
+      return {
+        color: '#fed0c8',
+          description: 'South Dakota',
+      };
+    case 52:
+      return {
+        color: '#fed0c8',
+          description: 'Alaska',
+      };
+    case 53:
+      return {
+        color: '#fed0c8',
+          description: 'West Virginia',
+      };
 
 
-      default:
-        return {
-          color: '#CD3700',
+    default:
+      return {
+        color: '#CD3700',
           description: 'other',
-        };
-   }
+      };
+  }
 };
 
 var defaultText = '<p> Get more inormation about the statistics of each state. </p>'
@@ -350,27 +350,27 @@ map.on('style.load', function() {
             'Michigan',
             nameLookup(5).color,
           ],
-           [
+          [
             'Florida',
             nameLookup(6).color,
           ],
-           [
+          [
             'Louisiana',
             nameLookup(7).color,
           ],
-           [
+          [
             'Illinois',
             nameLookup(8).color,
           ],
-           [
+          [
             'Georgia',
             nameLookup(9).color,
           ],
-           [
+          [
             'Texas',
             nameLookup(10).color,
           ],
-           [
+          [
             'Massachusetts',
             nameLookup(11).color,
           ],
@@ -547,22 +547,22 @@ map.on('style.load', function() {
     }
   });
 
-    // add a layer for provincal borders
-    map.addLayer({
-      id:'line-map-province',
-      type: 'line',
-      source: 'Yimusanfendi',
-      before:['fill-map-province'],
+  // add a layer for provincal borders
+  map.addLayer({
+    id: 'line-map-province',
+    type: 'line',
+    source: 'Yimusanfendi',
+    before: ['fill-map-province'],
     //  layout: {
     //    'visibility': 'visible',
     //    'line-join': 'round',
     //    'line-cap': 'round'
     //      },
-      paint: {
-        'line-color': 'white',
-        'line-width': 1,
-          }
-    });
+    paint: {
+      'line-color': 'white',
+      'line-width': 1,
+    }
+  });
 
   map.addSource('highlight-feature', {
     type: 'geojson',
@@ -579,21 +579,21 @@ map.on('style.load', function() {
     paint: {
       'line-width': 6,
       'line-color': 'lightblue',
-        }
+    }
   });
 
   // listen for the mouse moving over the map and react when the cursor is over our data
 
-  map.on('mousemove', function (e) {
+  map.on('mousemove', function(e) {
     // query for the features under the mouse, but only in the lots layer
     var features = map.queryRenderedFeatures(e.point, {
-        layers: ['fill-map-province'],
+      layers: ['fill-map-province'],
     });
 
     // if the mouse pointer is over a feature on our layer of interest
     // take the data for that feature and display it in the sidebar
     if (features.length > 0) {
-      map.getCanvas().style.cursor = 'pointer';  // make the cursor a pointer
+      map.getCanvas().style.cursor = 'pointer'; // make the cursor a pointer
 
       var hoveredFeature = features[0]
       var featureInfo = `
