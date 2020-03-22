@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset='utf-8' />
+      <title>COVID-19 Epidemic Situation Map - USA</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+      <link href='./style.css' rel='stylesheet'/>
+  </head>
+  <body>
+    <!-- the sidebar is fixed width and will contain a title, some text, and buttons -->
+    <div id='sidebar'>
+      <h2>COVID-19 Epidemic Situation Real-time Map - USA</h2>
+      <p>This map shows the latest pandemic data in each state of the US. (Last updated: 03/21/2020)</p>
+
+      <div id='feature-info'>
+</div>
+</div>
+<!-- close sidebar -->
+<!-- this is the map container, which will hold the mapboxGL map -->
+<div id='map-container'></div>
+
+<!-- Load mapboxGL, jQuery, then our local javascript files -->
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src='./script.js'></script>
+
+</body>
+</html>
